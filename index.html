@@ -68,15 +68,14 @@
 
 
   <div class="row">
-    <heading>Research Projects</heading>
+    <heading>Current Research Projects</heading>
   </div>
 
 <div class="row">
-  <div class="col-proj-pic"><img src="" ></div>
     <div class="col-proj-desc">
         <papertitle>Few-shot Active Learning for Better Information Retrieval</papertitle>
       </a><br>
-      Aug 2015 - May 2020</a>
+      Aug 2020 - Present</a>
       <td colspan =4><p> This project aims to improve efficiency of information retrieval with a combination of few-shot learning and active learning.</p>
               <ul style="list-style-type:Disc">
                 <li>When a deep neural network model learns to retrieve different relevant information (of the same type, e.g. literature reviews of different topics), it optimizes its inner structure so that it will learn faster and better to retrieve new, unseen information. </li>
@@ -86,16 +85,41 @@
   </div>
 
   <div class="row">
-  <div class="col-proj-pic"><img src="images/General_FASTREAD.png" ></div>
     <div class="col-proj-desc">
-        <papertitle>Total Recall and Software Engineering</papertitle>
+        <papertitle>Better self-admitted technical debt identification with adaptive CNN.</papertitle>
       </a><br>
-      Aug 2015 - May 2020</a>
-      <td colspan =4><p> Working as a member of RAISE Lab, following the instruction of Dr. Menzies. My primary research is to apply machine learning algorithms to support human retrieve desired information from big data with less effort.</p>
+      Aug 2020 - Present</a>
+      <td colspan =4><p> This project aims to improve efficiency of self-admitted technical debt identification with an adaptive CNN model.</p>
               <ul style="list-style-type:Disc">
-                <li>Developed a method called FASTREAD to support fast selection of primary studies in systematic reviews. </li>
-                <li>A tool has been developed to implement FASTREAD, which can be found at <a href="https://github.com/fastread/src">https://github.com/fastread/src</a>. </li>
-                <li>Same idea applied to solve software security vulnerability prediction problem and test case prioritization problem. </li>
+                <li>Incorporate a CNN model in the framework of a human-in-the-loop self-admitted technical debt identification system.</li>
+                <li>Explore ways to efficiently update the CNN model with incrementally obtained labels.</li>
+		      <li>Make the prediction model of CNN adaptive to the target software project.</li>
+                </ul></td>
+    </div>
+  </div>
+
+<div class="row">
+    <div class="col-proj-desc">
+        <papertitle>Human Ethical Bias Detection with Machine Learning Software.</papertitle>
+      </a><br>
+      Aug 2021</a>
+      <td colspan =4><p> Instead of trying to reduce bias in machine learning software, this project aims to reduce bias from its source--- the human decisions. </p>
+              <ul style="list-style-type:Disc">
+                <li>That is, this work proposes to utilize the machine learning bias inherited from the training data (human decisions) as an indicator for detecting human bias.</li>
+                <li>While it is difficult to directly test whether a human has bias, with current research on machine learning bias, it is now easy to test, in large scale at low cost, whether a machine learning software has bias.</li>
+                </ul></td>
+    </div>
+  </div>
+
+<div class="row">
+    <div class="col-proj-desc">
+        <papertitle>Trace Link Prediction with Dual-Encoders.</papertitle>
+      </a><br>
+      Aug 2021</a>
+      <td colspan =4><p> Trace link prediction is a crucial problem to facilitate the maintenance of software projects.  </p>
+              <ul style="list-style-type:Disc">
+                <li>This work proposes to customize the dual-encoder architecture for trace link prediction, especially in the inference strategy and the loss function for training.</li>
+                <li>The designed dual-encoders will be able to encode different software artifacts into a shared encoding space. In that shared encoding space, artifacts connected by trace links would be closer to each other than the unconnected ones.</li>
                 </ul></td>
     </div>
   </div>
@@ -116,76 +140,6 @@
 
 
 
-
-
-  <div class="row">
-    <heading>Industry Experiences</heading>
-  </div>
-
-  <div class="row">
-    <div class="col-proj-all">
-        <papertitle>Youtube eCPM Seasonality in TEA</papertitle>
-      </a><br>
-      May 2019 - Aug 2019</a>
-      <td><p>Internship at Google. </p>
-        <p>Analyzed which features are significantly correlated to outliers (when forecasts were way off from actuals). </p>
-              <ul style="list-style-type:Disc">
-                <li>Enabled null hypothesis tests on scalar features. </li>
-                <li>Built a new feature for the internal validation tool to analyze outlier features in drilldown pages. </li>
-                </ul></td>
-        <p>Added seasonality predictions to the current TEA forecasts. </p>
-              <ul style="list-style-type:Disc">
-                <li>Improved seasonality predictions---time series analysis on previous years to predict the curve in next year. </li>
-                <li>Validated the overall TEA forecasting performance improvement with seasonality predictions via A/B testing. </li>
-                </ul></td>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-proj-all">
-        <papertitle>KIWI: Knowledge In Web Images</papertitle>
-      </a><br>
-      May 2019 - Aug 2019</a>
-      <td><p>Internship at Google. </p>
-        <p>Mined image-entity pairs in web images with alt text, image url, etc. Trained a model to measure the image-entity pair quality and filter out low-quality pairs. </p>
-              <ul style="list-style-type:Disc">                
-                <li>Trained a dual encode model, between entity and image starburst. </li>
-                <li>Designed and tried different metrics to evaluate the model performance. </li>
-                <li>Added a feature to dual encoder framework to support dense feature. </li>
-                </ul></td>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-proj-all">
-        <papertitle>Legal Document Headnotes Generation and Classification</papertitle>
-      </a><br>
-      May 2017 - Aug 2017</a>
-      <td><p>Internship at LexisNexis Legal & Professional. </p>
-              <ul style="list-style-type:Disc">
-                <li>Developed a text summarization framework for generating "headnote" of more than 1 Million legal documents. </li>
-                <li>Designed a scalable classification scheme with doc2vec to categorize documents into specific legal topics. </li>
-                <li>Demonstrated that the above framework can reduce document review time by >= 50% according to user surveys. </li>
-                </ul></td>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-proj-all">
-        <papertitle>Improve Legal Document Retrieval Efficiency of DiscoveryIQ</papertitle>
-      </a><br>
-      May 2016 - Aug 2016</a>
-      <td><p>Internship at LexisNexis Legal & Professional. </p>
-              <ul style="list-style-type:Disc">
-                <li>Created a sandbox for prototyping new DiscoveryIQ features. </li>
-                <li>Developed new features to "open the blackbox" of DiscoveryIQ. </li>
-                <li>Incorporate new feature into current DiscoveryIQ product. </li>
-                <li>Added seasonality predictions to the current TEA forecasts </li>
-                </ul></td>
-    </div>
-  </div>
-
-
 <div class="row">
     <heading>Publications</heading>
   </div>
@@ -200,6 +154,36 @@
     <div class="col-proj-all">
         <papertitle>Zhe Yu, Jeffrey C. Carver, Gregg Rothermel, Tim Menzies. 2019. "Searching for Better Test Case Prioritization
 Schemes: a Case Study of AI-assisted Systematic Literature Review." <a href="https://arxiv.org/pdf/1909.07249">Submitted</a>.</papertitle>
+    </div>
+  </div>
+
+<div class="row">
+    <div class="col-proj-all">
+        <papertitle>Yang, Xueqi, Zhe Yu, Junjie Wang, and Tim Menzies. 2020. "An Expert System for Learning Software Engineering Knowledge (with Case Studies in Understanding Static Code Warning)." <a href="https://arxiv.org/pdf/1911.01387">Expert Systems with Applications.</a>.</papertitle>
+    </div>
+  </div>
+
+<div class="row">
+    <div class="col-proj-all">
+        <papertitle>Yang, Xueqi, Jianfeng Chen, Rahul Yedida, Zhe Yu, and Tim Menzies. 2020. "How to Recognize Actionable Static Code Warnings (Using Linear SVMs)." <a href="https://arxiv.org/pdf/2006.00444">Empirical Software Engineering.</a>.</papertitle>
+    </div>
+  </div>
+
+<div class="row">
+    <div class="col-proj-all">
+        <papertitle>Chakraborty, Joymallya, Suvodeep Majumder, Zhe Yu, and Tim Menzies. 2020. "Fairway: A Way to Build Fair ML Software." <a href="https://dl.acm.org/doi/pdf/10.1145/3368089.3409697">In Proceedings of ESEC/FSE 2020.</a>.</papertitle>
+    </div>
+  </div>
+
+<div class="row">
+    <div class="col-proj-all">
+        <papertitle>Agrawal, Amritanshu, Tim Menzies, Leandro L. Minku, Markus Wagner, and Zhe Yu. 2020. "Better software analytics via DUO: Data mining algorithms using/used-by optimizers." <a href="https://arxiv.org/abs/1812.01550">Empirical Software Engineering 25, no. 3 (2020): 2099-2136.</a>.</papertitle>
+    </div>
+  </div>
+
+<div class="row">
+    <div class="col-proj-all">
+        <papertitle>Huy Tu, Zhe Yu, Tim Menzies. 2020. "Better Data Labelling with EMBLEM (and how that Impacts Defect Prediction)." <a href="https://arxiv.org/abs/1905.01719">IEEE Transactions on Software Engineering.</a>.</papertitle>
     </div>
   </div>
 
